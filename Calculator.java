@@ -14,17 +14,7 @@ public class Calculator{
         }
     }
 
-    public static void Add(Double firstVar, double secondVar){
-        Double result = firstVar + secondVar;
-        Operation operation = new Operation(firstVar, secondVar, "+", result);
-        log.add(operation);
-        System.out.println(operation.toString());
-    }
+    public static void Calculate(){
 
-    public static void Subtract(Double firstVar, double secondVar){
-        Double result = firstVar - secondVar;
-        Operation operation = new Operation(firstVar, secondVar, "-", result);
-        log.add(operation);
-        System.out.println(operation.toString());
     }
 }

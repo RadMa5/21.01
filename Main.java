@@ -1,7 +1,11 @@
 public class Main {
     public static void main(String[] args) {
-        Calculator.Add(1.0, 2.0);
-        Calculator.Subtract(5.0, 4.0);
+        Addition.Calculate(1.0, 2.0);
+        Subtraction.Calculate(5.0, 4.0);
+        Calculator.PrintLog();
+
+        Multiplication.Calculate(2.0, 5.0);
+        Division.Calculate(20.0, 5.0);
         Calculator.PrintLog();
     }
 }
